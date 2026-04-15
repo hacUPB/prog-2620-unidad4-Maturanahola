@@ -5,7 +5,7 @@ aeronaves = []
 num_aeronaves = int(input("Ingrese el número de aeronaves a registrar "))
 i = 0
 while i < num_aeronaves:
-    print("registro de aeronave ",)
+    print("REGISTRO DE AERONAVE")
     matricula = input("Ingrese la matrícula: ")
     modelo = input("Ingrese el modelo: ")
     horas_de_vuelo = float(input("Ingrese las horas de vuelo: "))
@@ -19,7 +19,7 @@ while i < num_aeronaves:
     comp = int(input("Ingrese el número de componentes: "))
     j = 0
     while j < comp:
-        print("registro de componente ",)
+        print("REGISTRO DE COMPONENTE")
         nombre = input("Ingrese el nombre del componente: ")
         horas_de_uso = float(input("Ingrese las horas de uso: "))
 
@@ -34,7 +34,7 @@ while i < num_aeronaves:
     i += 1
 
 # reporte de mantenimiento
-print("Reporte de manteniemiento")
+print("REPORTE DE MANTENIMIENTO")
 i = 0
 while i < len(aeronaves):
     aeronaave = aeronaves[i]
